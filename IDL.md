@@ -16,7 +16,7 @@ interface TimestampTrigger : Trigger {
 ## Additions to the Notification API
 ```webidl
 partial dictionary NotificationOptions {
-  Trigger showTrigger = null;
+  Trigger showTrigger;
 };
 
 partial dictionary GetNotificationOptions {
